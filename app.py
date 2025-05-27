@@ -3,6 +3,8 @@ import json
 import os
 import random
 
+with open("today_sentences.json", "r", encoding='utf-8') as f:
+
 app = Flask(__name__)
 
 # 📥 문장 리스트 저장
